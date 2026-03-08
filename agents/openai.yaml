@@ -1,0 +1,3 @@
+interface:
+  display_name: "Verify Service Ready"
+  short_description: "Verify tests, build, and HTTP readiness before handoff"
