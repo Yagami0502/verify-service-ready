@@ -14,5 +14,5 @@ A Codex skill for proving a service or dashboard is actually ready before handof
 3. Start a new Codex session.
 
 ## Example prompt
-- ??????? dashboard ?????
-- ?????????????? ready?
+- Verify that the dashboard is actually running.
+- Do not stop at code changes; prove the service is ready.
