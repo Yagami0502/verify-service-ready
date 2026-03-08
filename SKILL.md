@@ -6,7 +6,7 @@ description: Use when about to claim a dashboard, service, or code change is com
 # Verify Service Ready
 
 ## Overview
-Do not say ?done? from code inspection alone. Verify behavior from the narrowest relevant tests outward, then confirm the live service really starts and answers requests.
+Do not say "done" from code inspection alone. Verify behavior from the narrowest relevant tests outward, then confirm the live service really starts and answers requests.
 
 ## Quick Reference
 - Run targeted tests for the touched area first.
@@ -24,10 +24,10 @@ Do not say ?done? from code inspection alone. Verify behavior from the narrowest
 6. Hand back concrete evidence, not guesswork.
 
 ## Red Flags
-- ?The code looks right, so it should work.?
-- ?I built it once earlier, no need to rebuild.?
-- ?The server probably started.?
-- ?I did not check the HTTP endpoints.?
+- "The code looks right, so it should work."
+- "I built it once earlier, no need to rebuild."
+- "The server probably started."
+- "I did not check the HTTP endpoints."
 
 ## Common Mistakes
 - Claiming a fix before the service returns `200`.
@@ -36,4 +36,4 @@ Do not say ?done? from code inspection alone. Verify behavior from the narrowest
 - Reporting a model or provider from memory instead of live status.
 
 ## Example
-Use when the user says: ??????????, ?????????????, or ????????????????.
+Use when the user says: "Make sure it really runs", "start the dashboard and confirm service health", or "do not just edit code, verify it is ready".
